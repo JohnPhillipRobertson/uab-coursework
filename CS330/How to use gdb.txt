@@ -1,0 +1,4 @@
+First write: gcc -g filename.c -o filename
+Then write: gdb filename
+	or write: gdb -tui filename
+Get out by typing "quit"
