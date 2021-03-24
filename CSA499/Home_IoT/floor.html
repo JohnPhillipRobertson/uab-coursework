@@ -1,0 +1,150 @@
+<html>
+  <link rel="stylesheet" type="text/css" href="/static/home.css">
+  <link rel="stylesheet" type="text/css" href="/static/yay.css">
+  
+  <!-- Nav bar -->
+  <div class="box">
+    <div class="nav-bar">
+        <div class="left">
+            <div class="links">
+                <a href="index.html">Home</a>
+            </div>
+
+            <div class="links">
+                
+                <a href="floor.html">floor plan</a>
+                
+            </div>
+
+            <div class="links">
+                
+                <a href="graphs.html">Usage</a>
+                
+            </div>
+
+            <div class="links">
+                
+                <a href="water.html">Water</a>
+                
+            </div>
+
+            <div class="links">
+                
+                <a href="weather.html">Weather</a>
+                
+            </div>
+        </div>
+
+        
+    </div>
+
+<div>
+        <!-- Floor plan -->
+    <img src="pictures/symbols/floorplan.png" class="floorplan" >
+
+    <!-- Light bulbs for bedroom 1 (top left corner) -->
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom1_light1' class="light_bulb_off" style= "left:2%;top:14%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom1_light2' class="light_bulb_off" style= "left:2%;top:20%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom1_light3'  class="light_bulb_off" style= "left:4%;top:25%" >
+    <!-- Door for bedroom 1 (top left corner) -->
+    <img src="pictures/symbols/door_close.png" id='bedroom1_door1' class="doorclosed" style= "left:5%;top:30%" >
+
+    <!-- Light bulbs for bedroom 2 (right of bedroom 1) -->
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom2_light1' class="light_bulb_off" style= "left:11%;top:14%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom2_light2' class="light_bulb_off" style= "left:11%;top:20%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom2_light3'  class="light_bulb_off" style= "left:13%;top:25%" >
+    <!-- Door for bedroom 2 (right of bedroom 1) -->
+    <img src="pictures/symbols/door_close.png" id='bedroom2_door1' class="doorclosed" style= "left:14%;top:30%" >
+
+    <!-- Light bulbs for bedroom 3 (below bedroom1) -->
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom3_light1' class="light_bulb_off" style= "left:2%;top:54%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom3_light2' class="light_bulb_off" style= "left:2%;top:58%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='bedroom3_light3'  class="light_bulb_off" style= "left:4%;top:60%" >
+    <!-- door for bedroom 3 (below bedroom1) -->
+    <img src="pictures/symbols/door_close.png" id='bedroom3_door1' class="doorclosed" style= "left:2.5%;top:46%" >
+
+
+    <!-- Light bulbs for bathroom 1 (right of bedroom 2) -->
+    <img src="images/logos/light_bulb_off.png" id='bathroom1_light'  class="light_bulb_off" style= "left:23%;top:23%" >
+    <!-- Door for bathroom 1 (right of bedroom 2) -->
+    <img src="images/logos/door_close.png" id='bathroom1_door1' class="doorclosed" style= "left:24%;top:30%" >
+
+
+    <!-- Light bulbs for bathroom 2 (below bedroom 3) -->
+    <img src="pictures/symbols/light_bulb_off.png" id='bathroom2_light'  class="light_bulb_off" style= "left:4%;top:80%" >
+    <!-- Door for bathroom 2 (below bedroom 3) -->
+    <img src="pictures/symbols/door_close.png" id='bathroom2_door1' class="doorclosed" style= "left:4%;top:65%" >
+    <!-- random door room-->
+    <img src="pictures/symbols/door_close.png" id='random_door1' class="doorclosed" style= "left:13%;top:65%" >
+    <!-- Light bulbs for living room -->
+    <img src="pictures/symbols/light_bulb_off.png" id='living_room_light1'  class="light_bulb_off" style= "left:30.5%;top:69.5%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='living_room_light2'  class="light_bulb_off" style= "left:30.5%;top:50%" >
+    <img src="pictures/symbols/light_bulb_off.png" id='living_room_light3'  class="light_bulb_off" style= "left:30%;top:45%" >
+    <!-- Door for living room -->
+    <img src="pictures/symbols/door_close.png" id='living_room_door1' class="doorclosed" style= "left:41%;top:85%" >
+
+    <!-- Light bulbs for kitchen -->
+    <img src="pictures/symbols/light_bulb_off.png" id='kitchen_light'  class="light_bulb_off" style= "left:35.5%;top:21%" >
+    <!-- Doors bulbs for kitchen -->
+    <img src="pictures/symbols/door_close.png" id='kitchen_door1' class="doorclosed" style= "left:44%;top:21%" >
+    <img src="pictures/symbols/door_close.png" id='kitchen_door2' class="doorclosed" style= "left:54%;top:21%" >
+    </div>
+        
+    
+    
+   <div>
+    <!-- Thermostat -->
+    <p class='thermostat'>
+      Outside Temperature: <span id='outsideTemp'>60</span> <br>
+      Inside Temperature: <span id='insideTemp'>72</span> <br>
+      Set Temperature: <span id='setTemp'>72</span> <br>
+      
+    </p>
+    <img src="pictures/symbols/increaseArrow.png" id='increase'  class="increaseArrow" >
+    <img src="pictures/symbols/decreaseArrow.png"id='decrease'  class="decreaseArrow" >
+
+   </div>
+
+   
+   
+   <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+   
+   <script>
+    $(document).on('click', '.light_bulb_off', function() {
+      var element_id = this.id;
+      document.getElementById(element_id).setAttribute("class", "light_bulb_on")
+      document.getElementById(element_id).setAttribute("src", "pictures/symbols/light_bulb_on.png")
+    });
+    $(document).on('click', '.light_bulb_on', function(event) {
+      var element_id = this.id;
+      document.getElementById(element_id).setAttribute("class", "light_bulb_off")
+      document.getElementById(element_id).setAttribute("src", "pictures/symbols/light_bulb_off.png")
+    });
+    $(document).on('click', '.doorclosed', function() {
+      var element_id = this.id;
+      document.getElementById(element_id).setAttribute("class", "dooropen")
+      document.getElementById(element_id).setAttribute("src", "pictures/symbols/door_open.png")
+    });
+    $(document).on('click', '.dooropen', function(event) {
+      var element_id = this.id;
+      document.getElementById(element_id).setAttribute("class", "doorclosed")
+      document.getElementById(element_id).setAttribute("src", "pictures/symbols/door_closed.png")
+    });
+    $(document).on('click', '.increaseArrow', function(event) {
+      var element_id = 'setTemp'
+      var newVal = parseInt(document.getElementById(element_id).textContent) + 1
+      document.getElementById(element_id).textContent = newVal
+    });
+    $(document).on('click', '.decreaseArrow', function(event) {
+      var element_id = 'setTemp'
+      var newVal = parseInt(document.getElementById(element_id).textContent) - 1
+      document.getElementById(element_id).textContent = newVal
+    });
+    
+   </script>
+   
+    </div>
+    
+</html>

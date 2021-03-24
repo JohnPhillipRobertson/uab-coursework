@@ -1,0 +1,49 @@
+body {
+    overflow: hidden;
+    /* background-color: #ABBAEA; */
+    background-color:bisque;
+}
+.floorplan {
+    position: absolute;
+    width: 65%;
+    height: 80%;
+}
+.light_bulb_off {
+    position: absolute;
+    width:30px;
+    filter: brightness(10%)
+}
+.light_bulb_on {
+    position: absolute;
+    width:30px;
+}
+.thermostat {
+    width: 20%;
+    height: 20%;
+    margin-left: 80%;
+    padding-top: 10%;
+    font-size: large;
+}
+.increaseArrow {
+    position: absolute;
+    margin-left: 70%;
+    top: 70%;
+    height: 25%;
+    width: 15%;
+}
+.decreaseArrow {
+    position: absolute;
+    margin-left: 80%;
+    top: 70%;
+    height: 25%;
+    width: 15%;
+}
+.dooropen {
+    position: absolute;
+    width:30px;
+    filter: brightness(10%)
+}
+.doorclosed {
+    position: absolute;
+    width:30px;
+}
