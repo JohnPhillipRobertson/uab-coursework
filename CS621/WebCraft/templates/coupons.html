@@ -1,0 +1,11 @@
+{% extends "base.html" %}
+
+{% block content %}
+<br>
+<table style = "margin-left:auto; margin-right:auto;">
+  {% for item in items%}
+    <img src = 'static/coupons/{{item|safe}}' style="width:300px;height:200px;"></img>
+    <sp>
+  {% endfor %}
+</table>
+{% endblock %}

@@ -1,0 +1,14 @@
+/* https://developer.mozilla.org/en-US/docs/Web/CSS */
+
+.resume, .port, .home, .contact {
+	background-color: purple;
+}
+.pictures {
+	background-color: salmon;
+	text-align: center;
+}
+.bar {
+	background-color: springgreen;
+	text-align: center;
+	font-style: Console, monospace;
+}

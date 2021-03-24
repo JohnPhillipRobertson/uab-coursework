@@ -1,0 +1,41 @@
+{% extends "base.html" %}
+{% block content %}
+<style>
+table {font-family: arial, sans-serif; border-collapse: collapse; margin: auto; width: 100%;}
+td, th {border: 1px solid #dddddd; text-align: left; padding: 8px;}
+tr:nth-child(even) {background-color: gainsboro;}
+tr:nth-child(1) {color: rgb(27,150,250);}
+</style>
+  {{csrf_token}}
+  <h1 style = "font-size:32px; background: gainsboro">{{getRequest}}</h1>
+  <h1>Search Results:</h1>
+  <table>
+    <tr>
+      <th>Common Name</th>
+      <th>URL</th>
+      <th>Created On</th>
+      <th>Date Available To Public</th>
+      <th>Make</td>
+      <th>ManufacturerName</th>
+      <th>ParentCompanyName</th>
+      <th>UpdatedOn</th>
+      <th>CommonName</th>
+      <th>VehicleType</th>
+    </tr>
+
+    {% for i in info%}
+    <tr>
+      <td>{{i["CommonName"]}}</td>
+      <td><a href ="{{i["URL"]}}">{{i["URL"]}}</a></td>
+      <td>{{i["CreatedOn"]}}</td>
+      <td>{{i["DateAvailableToPublic"]}}</td>
+      <td>{{i["Make"]}}</td>
+      <td>{{i["ManufacturerName"]}}</td>
+      <td>{{i["ParentCompanyName"]}}</td>
+      <td>{{i["UpdatedOn"]}}</td>
+      <td>{{i["CommonName"]}}</td>
+      <td>{{i["VehicleType"]}}</td>
+    </tr>
+    {%endfor%}
+  </table>
+{% endblock %}
