@@ -9,7 +9,7 @@ Any and all code that I had written for UAB.
 
 **CS 332**: Systems programming for Linux, in C
 
-**CS 334**: Networking; mostly Cisco Packet Tracer projects
+**CS 334**: Networking; mostly Cisco Packet Tracer setups
 
 **CS 350**: Theory of computation; the projects were an assortment of discrete math puzzles, an NFA implementation, and a parser for a language
 
